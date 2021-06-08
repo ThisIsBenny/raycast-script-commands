@@ -2,7 +2,7 @@
 
 Script-Commands for the App [Raycast](https://raycast.com/)
 
-# First vaccinations in Germany
+## First vaccinations in Germany
 ![vaccination-data](https://github.com/ThisIsBenny/raycast-script-commands/raw/main/assets/vaccination-data.png)
 
 Shows the quote of the first vaccinations in Germany.
