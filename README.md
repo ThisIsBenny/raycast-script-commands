@@ -1,10 +1,11 @@
 # raycast-script-commands
 
 # First vaccinations in Germany
-![]()
+![vaccination-data](https://github.com/ThisIsBenny/raycast-script-commands/raw/main/assets/vaccination-data.png)
 
 Shows the quote of the first vaccinations in Germany.
 
-[Download]()
+_Datasource: RKI via Thrid-party API https://rki-vaccination-data.vercel.app/_
 
-Datasource: RKI via Thrid-party API https://rki-vaccination-data.vercel.app/
+[Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/vaccination-data.py)
+
