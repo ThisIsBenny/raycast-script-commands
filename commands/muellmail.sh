@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Muellmail
-# @raycast.description Creates a Muellmail address, then adds it to the clipboard and opens the inbox of this address
+# @raycast.description Creates a Muellmail address which is added to the clipboard and whose inbox is opened in the browser
 # @raycast.mode compact
 # Optional parameters:
 # @raycast.icon 📨

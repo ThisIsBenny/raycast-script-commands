@@ -13,6 +13,6 @@ _Datasource: RKI via Thrid-party API https://rki-vaccination-data.vercel.app/_
 
 ## Muellmail
 
-Creates a Muellmail address, then adds it to the clipboard and opens the inbox of this address
+Creates a Muellmail address which is added to the clipboard and whose inbox is opened in the browser
 
 [Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/muellmail.sh)
