@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import http.client, json
 
-# @raycast.title First vaccinations in Germany
+# @raycast.title Vaccinated at least once in 🇩🇪
 # @raycast.author Benny Hierl
 # @raycast.authorURL https://github.com/ThisIsBenny
 # @raycast.description Get vaccination qutoe from rki
@@ -14,10 +14,11 @@ OUTPUT_INCLUDES_BAR = True
 BAR_LENGTH = 25
 
 conn = http.client.HTTPSConnection("rki-vaccination-data.vercel.app")
-conn.request("GET", "/api")
+conn.request("GET", "/api/v2")
 res = conn.getresponse()
 data = json.loads(res.read())
-percentage = data['quote']
+entry = next((sub for sub in data['data'] if sub['name'] == 'Deutschland'), None)
+percentage = entry['vaccinatedAtLeastOnce']['quote']
 
 
 filled_element_count=round(BAR_LENGTH * percentage / 100)
