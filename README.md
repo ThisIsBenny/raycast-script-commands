@@ -11,3 +11,8 @@ _Datasource: RKI via Thrid-party API https://rki-vaccination-data.vercel.app/_
 
 [Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/vaccination-data.py)
 
+## Muellmail
+
+Creates a Muellmail address, then adds it to the clipboard and opens the inbox of this address
+
+[Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/muellmail.sh)
