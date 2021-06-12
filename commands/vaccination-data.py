@@ -16,8 +16,8 @@ BAR_LENGTH = 25
 conn = http.client.HTTPSConnection("rki-vaccination-data.vercel.app")
 conn.request("GET", "/api/v2")
 res = conn.getresponse()
-data = json.loads(res.read())
-entry = next((sub for sub in data['data'] if sub['name'] == 'Deutschland'), None)
+responseData = json.loads(res.read())
+entry = next((sub for sub in responseData['data'] if sub['name'] == 'Deutschland'), None)
 percentage = entry['vaccinatedAtLeastOnce']['quote']
 
 
