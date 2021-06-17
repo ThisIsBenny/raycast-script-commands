@@ -16,3 +16,9 @@ _Datasource: RKI via Thrid-party API https://rki-vaccination-data.vercel.app/_
 Creates a Muellmail address which is added to the clipboard and whose inbox is opened in the browser
 
 [Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/muellmail.sh)
+
+## Convert To Camel Case
+
+Convert clipboard content to Camel Case and paste it back to clipboard
+
+[Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/convertToCamelCase.js)
