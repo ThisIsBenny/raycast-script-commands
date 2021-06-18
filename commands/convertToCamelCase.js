@@ -2,7 +2,7 @@
 
 // @raycast.schemaVersion 1
 // @raycast.title Convert To Camel Case
-// @raycast.mode compact
+// @raycast.mode silent
 // @raycast.icon 🐫
 // @raycast.description Convert clipboard content to Camel Case and paste it back to clipboard
 // @raycast.author Benny Hierl
@@ -29,3 +29,4 @@ function camelize(str) {
 const textFromClipboard = pbpaste()
 const camelString = camelize(textFromClipboard)
 pbcopy(camelString)
+console.log("Added to clipboard")

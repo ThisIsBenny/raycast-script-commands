@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Muellmail
 # @raycast.description Creates a Muellmail address which is added to the clipboard and whose inbox is opened in the browser
-# @raycast.mode compact
+# @raycast.mode silent
 # Optional parameters:
 # @raycast.icon 📨
 # @raycast.author Benny Hierl
