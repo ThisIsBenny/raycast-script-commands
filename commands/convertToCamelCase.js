@@ -29,4 +29,4 @@ function camelize(str) {
 const textFromClipboard = pbpaste()
 const camelString = camelize(textFromClipboard)
 pbcopy(camelString)
-console.log("Added to clipboard")
+console.log("Pasted to clipboard")
