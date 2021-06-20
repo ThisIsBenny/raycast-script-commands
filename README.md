@@ -30,6 +30,8 @@ Convert clipboard content to Camel Case and paste it back to clipboard
 
 Show PiHole Status/Statistics and Enable/Disable PiHole
 
+[Download](https://github.com/ThisIsBenny/raycast-script-commands/tree/main/commands/piHole)
+
 ### Setup
 
 Rename `config.template.js` to `config.js` and set `Hostname`and `API-Token` values.
