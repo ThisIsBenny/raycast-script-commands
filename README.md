@@ -9,7 +9,7 @@ Shows the quote of the first vaccinations in Germany.
 
 _Datasource: RKI via Thrid-party API https://rki-vaccination-data.vercel.app/_
 
-[Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/vaccination-data.py)
+[Download](https://raw.githubusercontent.com/ThisIsBenny/raycast-script-commands/main/commands/vaccination-data.js)
 
 ## Muellmail
 
