@@ -18,7 +18,7 @@ const printBar = (percentage) => {
   let bar = "";
   bar = "▓".repeat(filled_element_count);
   bar = bar + ("░".repeat(blank_element_count));
-  console.log(`${bar} ${percentage}%`)
+  console.log(`${bar} ${percentage}%`);
 };
 
 const callback = (response) => {
@@ -31,7 +31,7 @@ const callback = (response) => {
   response.on('end', function () {
     const responseBody = JSON.parse(str);
     const de = responseBody.data.find((item) => item.name === 'Deutschland');
-    printBar(de.vaccinatedAtLeastOnce.quote)
+    printBar(de.vaccinatedAtLeastOnce.quote);
   });
 }
 
