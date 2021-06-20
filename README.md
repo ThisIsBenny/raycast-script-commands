@@ -1,6 +1,6 @@
 # raycast-script-commands
 
-Script-Commands for the App [Raycast](https://raycast.com/)
+Collection of Script-Commands for the App [Raycast](https://raycast.com/).
 
 ## First vaccinations in Germany
 
